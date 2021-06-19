@@ -27,7 +27,7 @@ body {
         @include margin();
         font: {
           size: 2rem;
-          weight: bold;
+          weight: 600;
         }
         color: #fff;
         text-transform: uppercase;
@@ -35,7 +35,7 @@ body {
 
       .text-card {
         @include margin();
-        width: 220px;
+        width: 200px;
         color: $transparent_white;
         font: {
           size: 1.2rem;

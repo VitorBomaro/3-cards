@@ -15,34 +15,11 @@
     align-items: flex-start;
 }
 
-// title_card
-@mixin title {
-    text-transform: uppercase;
-    font: {
-        size: 2rem;
-        weight:400;
-        font-family: "Big Shoulders Display";
-
-    }
-    color: $Very_light_gray;
-}
-
-
-// text-card 
-@mixin text_card {
-    line-height: 30px;
-    font: {
-        size: 1.1rem;
-    }
-    color: $transparent_white;
-}
-
-
 // button 
 @mixin button() {
     background: none;
     border: none;
-    padding: 16px 80px;
+    padding: 16px 40px;
     border-radius: 30px;
     text-transform: capitalize;
     background: $Very_light_gray;
