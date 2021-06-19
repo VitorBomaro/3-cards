@@ -46,6 +46,18 @@ body {
         @include button();
         @include margin();
       }
+
+      .btn-Sedans {
+        color:$Bright_orange ;
+      }
+
+      .btn-suvs {
+        color: $Dark_cyan;
+      }
+
+      .btn-luxury {
+        color: $Very_dark_cyan;
+      }
     }
 
     .sedans {

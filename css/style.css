@@ -38,7 +38,14 @@ body {
         margin: 100px 0px 20px 30px;
         margin: 30px 0px 20px 30px; }
         body .cards .card .btn:hover {
-          background: none; }
+          background: none;
+          color: #000; }
+      body .cards .card .btn-Sedans {
+        color: #e38826; }
+      body .cards .card .btn-suvs {
+        color: #006970; }
+      body .cards .card .btn-luxury {
+        color: #004241; }
     body .cards .sedans {
       background: #e38826;
       border-top-left-radius: 5px;
