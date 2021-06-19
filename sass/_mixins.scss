@@ -1,0 +1,61 @@
+@import 'variable';
+
+// center cards.
+@mixin  display_center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// card.
+@mixin display_start() {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+// title_card
+@mixin title {
+    text-transform: uppercase;
+    font: {
+        size: 2rem;
+        weight:400;
+        font-family: "Big Shoulders Display";
+
+    }
+    color: $Very_light_gray;
+}
+
+
+// text-card 
+@mixin text_card {
+    line-height: 30px;
+    font: {
+        size: 1.1rem;
+    }
+    color: $transparent_white;
+}
+
+
+// button 
+@mixin button() {
+    background: none;
+    border: none;
+    padding: 16px 80px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    background: $Very_light_gray;
+    border: 1px solid $Very_light_gray;
+    cursor: pointer;
+    margin: 100px 0px 20px 30px;
+
+    &:hover {
+        background: none;
+    }
+}
+
+
+@mixin margin(){
+    margin: 30px 0px 20px 30px;
+}

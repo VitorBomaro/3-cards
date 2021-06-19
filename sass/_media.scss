@@ -1,0 +1,23 @@
+@media (max-width: 756px) {
+    body {
+      .cards {
+          width: 360px;
+        .sedans {
+          border: {
+            top-left-radius: 5px;
+            top-right-radius: 5px;
+            bottom-left-radius: 0px;
+          }
+        }
+  
+        .luxury {
+          border: {
+            bottom-left-radius: 5px;
+            bottom-right-radius: 5px;
+            top-right-radius: 0px;
+          }
+        }
+      }
+    }
+  }
+  

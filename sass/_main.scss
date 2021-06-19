@@ -1,0 +1,72 @@
+@import "variable";
+@import "mixins";
+
+body {
+  background: $Very_light_gray;
+
+  .cards {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 300px;
+      height: 500px;
+
+      .icon {
+        @include margin();
+      }
+
+      .title {
+        @include margin();
+        font: {
+          size: 2rem;
+          weight: bold;
+        }
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      .text-card {
+        @include margin();
+        width: 220px;
+        color: $transparent_white;
+        font: {
+          size: 1.2rem;
+        }
+      }
+
+      .btn {
+        @include button();
+        @include margin();
+      }
+    }
+
+    .sedans {
+      background: $Bright_orange;
+
+      border: {
+        top-left-radius: 5px;
+        bottom-left-radius: 5px;
+      }
+    }
+
+    .suvs {
+      background: $Dark_cyan;
+    }
+
+    .luxury {
+      background: $Very_dark_cyan;
+      border: {
+        top-right-radius: 5px;
+        bottom-right-radius: 5px;
+      }
+    }
+  }
+}
